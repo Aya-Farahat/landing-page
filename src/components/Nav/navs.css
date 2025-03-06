@@ -1,0 +1,51 @@
+nav{
+    background-color: transparent;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 0;  
+   margin: 0;
+}
+
+nav a{
+    color: #ab3550 !important;
+    font-weight: 700 !important;
+    font-size: 15px !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav img {
+    max-width: 100%;
+    height: 75px;
+}
+
+nav #btn {
+    padding: 6px;
+    max-width:  140px;
+    background-color:#ab3550 ;
+    box-sizing: border-box;
+    border: 2px solid #ab3550 ;
+    color: white !important;
+}
+
+nav #btn:hover{
+    background-color: transparent;
+    color:#ab3550 !important ;
+    transition: 1s ease-in-out;
+} 
+
+
+#top {
+    position: fixed;  /* يجعل الشريط ثابتًا */
+    top: 0;          /* يضعه في أعلى الصفحة */
+    left: 0;         /* يضعه في بداية الصفحة */
+    right: 0;        /* يضمن استخدام كامل عرض الصفحة */
+    z-index: 1000;   /* يضمن بقاءه فوق العناصر الأخرى */
+    background-color: white; 
+   
+}
+
+body {
+    padding-top: 60px; /* اترك مساحة للمحتوى أسفل الشريط */
+}

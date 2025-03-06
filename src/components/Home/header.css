@@ -1,0 +1,607 @@
+/*  Header  */
+header{
+    background: url(../../assets/ert.jpg);
+    background-size: contain; /* استخدم contain لعرض الصورة كاملة */
+    background-repeat: no-repeat; /* منع تكرار الصورة */
+    background-position: right; /* مركز الصورة */
+    width: 100%;
+    max-width: 100%;
+    text-align: left;
+    min-height: 500px; /* يمكنك تعديل هذا الارتفاع حسب الحاجة */
+    overflow: hidden;
+    padding: 20x 0px;
+    margin-top: 100px;   
+}
+
+
+@media (max-width: 1024px) {
+    header {
+        background: url(../../assets/ertmmCopy.jpg);
+        background-size: contain; /* استخدم contain لعرض الصورة كاملة */
+        background-repeat: no-repeat; /* منع تكرار الصورة */
+        background-position: right; /* مركز الصورة */
+     
+    }
+}
+@media (max-width: 768px) {
+    header {
+        background: url(../../assets/ertCopy.jpg);
+        background-size: contain; /* استخدم contain لعرض الصورة كاملة */
+        background-repeat: no-repeat; /* منع تكرار الصورة */
+        background-position: right; /* مركز الصورة */
+     
+    }
+}
+@media (max-width: 450px) {
+    header {
+        background: url(../../assets/ertCopyCopy.jpg);
+        background-size: contain; /* استخدم contain لعرض الصورة كاملة */
+        background-repeat: no-repeat; /* منع تكرار الصورة */
+        background-position: right; /* مركز الصورة */
+ 
+    }
+}
+
+
+header .row{
+    margin: 60px 50px ;
+}
+
+
+header h2{
+    color: rgb(67, 18, 29);
+    font-size: 47px;
+    line-height: 50px;
+    font-family: "Roboto", serif;
+    font-weight: 600;
+    margin: 96px 0px 25px;
+    width: 80%;
+    letter-spacing: 1px;
+}
+header p {
+    color: #333;
+    font-family: "Roboto", serif;
+    width: 75%;
+}
+
+
+
+
+
+
+header button{
+width: 150px;
+height: 45px;
+background-color: #ab3550;
+border: 2px solid #ab3550 ;
+box-sizing: border-box;
+align-items: center;
+color: #fff;
+margin:20px 15px 20px 0;
+font-weight: 500;
+font-family: "Roboto", serif; 
+}
+
+header button span:last-of-type{
+    font-size: 15px;
+    
+}
+
+
+header button:last-of-type{
+    background-color:#fff;
+    color: black;
+    box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.19);
+    border: 2px solid #fff ;
+    
+}
+
+header button:hover{
+    transition: 1s ease-in-out;
+}
+
+header button:first-of-type:hover{
+    background-color: #fff;
+    color: #ab3550;
+}
+
+header button:last-of-type:hover{
+    border: 2px solid #ab3550 ;
+   ;
+}
+
+
+
+
+
+
+
+
+/* home-end*/
+
+.num{
+    background-color: #ab3550 ;
+    padding: 20px 0px;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 0;
+}
+
+.num .row{
+    margin: 10px 0px ;
+}
+
+.num h3 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px 0px;
+    color: #fff;
+    font-family: "Roboto", serif;
+}
+
+.num h6{
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: "Roboto", serif;
+}
+
+
+
+
+
+/* About us 1*/
+
+.about1{
+    background-color:transparent;
+    padding: 25px 0px;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 60px;
+}
+.about1 img{
+    width: 100%;
+    border-radius: 10px;
+  
+}
+
+.about1 h2{
+     font-size: 35px;
+    font-weight: bold;
+    width: 80%;
+    margin: 10px 0px;
+    color: rgb(67, 18, 29);
+    font-family: "Roboto", serif; 
+    line-height: 50px;
+}
+.about1 p{
+    font-size: 20px;
+    margin-top: 15px;
+    width: 90%;
+    line-height: 30px;
+    color: #686565;
+    font-family: "Roboto", serif; 
+}
+
+
+.about1 button , .about2 button  , .expl button ,.faq1 button , .faq2 button {
+    font-family: "Roboto", serif; 
+    width: 150px;
+    height: 45px;
+    background-color: #ab3550;
+    border: 2px solid #ab3550 ;
+    box-sizing: border-box;
+    align-items: center;
+    color: #fff;
+    margin:20px 15px 20px 0;
+    font-weight: 500;
+    
+    }
+    
+    
+    .about1 button:hover , .about2 button:hover , .expl button:hover ,.faq1 button:hover ,.faq2 button:hover{
+        background-color: #fff;
+        color: #ab3550;
+        transition: 1s ease-in-out;
+    }
+
+   
+
+    
+/* About us 2*/
+.about2{
+    background-color:transparent;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 70px;
+    text-align: left;
+}
+
+.about2 img{
+    width: 100%;
+    
+}
+
+.about2 h2 {
+    font-size: 35px;
+    font-weight: bold;
+   
+    margin: 10px 0px;
+    color: rgb(67, 18, 29);
+    font-family: "Roboto", serif; 
+    line-height: 50px;
+}
+.about2 p{
+    font-size: 18px;
+    font-weight: 100;
+  
+    line-height: 30px;
+    color: #686565;
+    font-family: "Roboto", serif; 
+}
+
+
+    .about2 ul {
+        padding: 0;
+    }
+
+    .about2 ul li{
+        list-style: none;
+        font-family: "Roboto", serif; 
+        color: #686565;;
+        margin-top: 10px;
+    }
+    .about2 span{
+        color: #ab3550;
+        font-weight: bold;
+    }
+
+
+
+
+
+    /* About us 3*/
+
+.about3{
+    background: url(../../assets/c9252e6c6cd289c588c3381bc77b1dfc.jpeg) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+    text-align: center;
+   
+
+}
+
+.about3 .row{
+margin: 50px 0px;
+}
+
+.about3 h2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #ab3550;
+    font-family: "Roboto", serif; 
+    line-height: 50px;
+    margin: 20px 0px;
+   
+}
+
+.about3 p{
+    font-size: 21px;
+    font-weight: 100;
+    line-height: 30px;
+    color: #686565;
+    font-family: "Roboto", serif; 
+    line-height: 35px;
+    margin: 20px 0px;
+}
+
+.about3 a{
+    text-decoration: none;
+    color: rgb(61, 15, 25);
+    font-family: "Roboto", serif; 
+    margin: 20px 0px;
+    font-size: 20px;
+    letter-spacing: 1px;
+   
+}
+
+
+
+
+
+/* Explore */
+.expl{
+    margin-top: 50px;
+    padding: 25px 0px ;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+.expl .row:first-child{
+    text-align: center;
+    margin: 25px 0px;
+}
+
+.expl h2{
+    font-size: 45px;
+    font-weight: bold;
+    width: 100%;
+    margin: 10px 0px;
+    color: rgb(67, 18, 29);
+    font-family: "Roboto", serif; 
+}
+.expl p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #686565;
+    font-family: "Roboto", serif; 
+    letter-spacing: 1px;
+}
+
+.expl .box{
+width: 100%;
+max-width: 100%;
+height: auto;
+overflow: hidden;
+border: 1px solid #f6f6f6;
+box-sizing: border-box;
+margin-top: 10px;
+border-radius: 5px;
+}
+.expl .box img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.expl .box h5{
+    color: rgb(67, 18, 29);
+    font-family: "Roboto", serif; 
+    padding-left: 10px;
+    margin-top:10px ;
+   font-weight: bold;
+   font-size: 18px;
+   letter-spacing: 1px;;
+}
+.expl .box span{
+    padding-left: 10px;
+    font-family: "Roboto", serif; 
+    color: #686565;
+}
+.expl .box h4{
+    color: #ab3550;
+    padding-left: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Roboto", serif; 
+ 
+}
+.expl .box h6{
+    color: #918e8e;
+    padding-left: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Roboto", serif; 
+    text-decoration: line-through;
+}
+.expl .price {
+    display: flex; /* استخدام flexbox لتوزيع العناصر أفقيًا */
+   margin-top: 20px;
+}
+.expl button{
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.expl hr{
+    color: #9c9595;
+}
+
+
+
+
+/* PREVIEW*/
+.slider{
+background-color: #ab3550;
+width: 100%;
+max-width: 100%;
+border: 1px solid #ab3550;
+text-align: center;
+padding: 50px 0px;
+height: auto;
+margin: 50px 0px;
+}
+.slider img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 150px ;
+}
+.slider .carousel {
+background-color: #fff;
+margin: 40px 0px;
+border: 1px solid #fff;
+box-sizing: border-box;
+border-radius: 15px;
+padding: 25px 0px;
+
+}
+.slider .carousel-caption span {
+  color: #ab3550;
+  display: block;
+  font-weight: 600;
+  font-family: "Roboto", serif; 
+  font-size: 17px;
+}
+.slider .carousel-caption p{
+    color: rgb(48, 46, 46);
+    font-size: 19px;
+    line-height: 30px;
+    font-family: "Roboto", serif; 
+    margin-top: 600px;
+
+  }
+  .slider h2 {
+    color: white;
+    font-weight: bold;
+    font-family: "Roboto", serif; 
+    letter-spacing: 1px;
+    padding: 35px 0px;
+  }
+.slider .carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+
+}
+
+.slider .carousel-indicators button{
+    width: 30px;
+    background-color: #ab3550;
+    height: 5px;
+    border: 1px solid #ab3550;
+   
+}
+
+
+
+/* FAQ*/
+.faq h1{
+    text-align: center;
+    color: rgb(67, 18, 29);
+    font-family: "Roboto", serif; 
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 30px 0px;
+    margin-bottom:100px;
+}
+.faq h5{
+    color: rgb(67, 18, 29);
+    font-family: "Roboto", serif; 
+    font-weight: bold;
+   
+}
+.faq p{
+    color: #635f5f;
+}
+.faq span{
+    color: #e9899f;
+}
+
+
+
+
+
+/* FAQ 1*/
+.faq1 {
+    margin: 120px 0px ;
+    background: url(../../assets/44eew.jpg) no-repeat center;
+    width: 100%;
+    height: auto;
+    background-size:cover;
+    background-attachment: fixed;
+   padding: 50px;
+    text-align: left;
+    opacity: 0.9;
+    
+}
+.faq1 h2{
+    color: #fff;
+}
+
+
+
+
+
+/* FAQ 2*/
+.faq2 h1{
+  text-align: center;
+  color: rgb(67, 18, 29);
+  font-family: "Roboto", serif; 
+}
+.faq2 p{
+    color: #635f5f;
+    text-align: center;
+    font-family: "Roboto", serif; 
+}
+.faq2 .form-floating{
+    margin-top: 20px;
+    border-radius: 0;
+    font-family: "Roboto", serif; 
+    font-weight: 500;
+    color: #575454;
+    
+ 
+}
+.faq2 button{
+    height: 55px;
+    margin-left: 10px;
+    width: 170px;
+    font-family: "Roboto", serif; 
+}
+.custom-input {
+    border-radius: 0; /* إلغاء الزوايا المدورة */
+}
+
+
+
+
+/* footer*/
+.foots{
+    background:#ab3550;
+    margin-top: 130px;
+    border: 1px solid #ab3550;
+}
+.foots nav a{
+    color: white !important;
+    font-weight: 500 !important;
+    font-family: "Roboto", serif; 
+font-size: 20px !important;
+text-transform: capitalize;
+padding-right:  0.9rem !important;
+}
+
+.foots nav a:hover{
+    text-decoration: underline;
+}
+.foots .nav-link{
+    padding-top: 60px;
+}
+.foots .navbar-text{
+    color: white;
+    font-family: "Roboto", serif; 
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding-bottom: 40px;
+}
+ .navbar{
+    -bs-navbar-nav-link-padding-x: 0.9rem;
+}
+
+
+.foots .social-icons {
+    gap: 5px; 
+    padding: 10px 0px;
+}
+
+.foots .social-icon {
+    font-size: 23px !important; /* حجم الأيقونات */
+    text-decoration: none; /* إزالة الخط السفلي */
+}
+
+.foots .social-icon:hover {
+    opacity: 0.7; /* تأثير عند التمرير */
+}
