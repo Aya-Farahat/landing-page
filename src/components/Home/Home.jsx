@@ -16,7 +16,7 @@ function Home() {
   /* Explore Foods*/
   const Data = data.map((item) => {
     return (
-      <div className="col-md-4">
+      <div className="col-md-4" key={item.title}>
         <div className="box">
           <img src={item.img} alt="img" />
           <h5>{item.title}</h5>
